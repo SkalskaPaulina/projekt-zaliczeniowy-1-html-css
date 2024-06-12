@@ -5,7 +5,7 @@ https://github.com/SkalskaPaulina/Projekt-1-html-css
 
 https://projekt-1-html-css.netlify.app/ 
 Próbowałam kilka razy różne repozytoria, ale po dodaniu z Github CSS nie chcą się dodać do strony, więc dodałam osobno pliki z folderu:
-https://66661a74fd81e422aad748ff--flourishing-longma-6bda4c.netlify.app/
+https://projekt-zaliczeniowy-1-html-css1.netlify.app/
 
 
 
