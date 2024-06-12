@@ -33,12 +33,12 @@ body {
 }
 
 .navbar {
+  font-size: 18px;
   height: 50px;
   background-color: #4e4e4e;
 }
 
 .nav-link {
-  font-size: 18px;
   text-decoration: none;
 }
 
