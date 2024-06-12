@@ -179,10 +179,10 @@ body {
 }
 
 .offer-heading-1 {
-  font-size: 26px;
+  font-size: 36px;
   color: #ffffff;
   margin-bottom: 50px;
-  text-align: center;
+  font-weight: bold;
 }
 
 .offers-wrapper {
