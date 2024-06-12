@@ -245,6 +245,10 @@ body {
   color: #ffffff;
 }
 
+.footer-credits {
+  font-size: 18px;
+}
+
 .medium {
   color: white;
   margin-right: 18px;
