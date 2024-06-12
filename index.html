@@ -6,62 +6,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <script
       src="https://kit.fontawesome.com/6e74189351.js"
       crossorigin="anonymous"
     ></script>
-    <title>Projekt zaliczeniowy HTML</title>
-    <link rel="stylesheet" href="/reset.css" />
-    <link rel="stylesheet" href="/style.css" />
+    <title>Projekt zaliczeniowy 1 HTML</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="navigation-bar">
+    <nav class="navbar">
       <div class="container container-flex">
         <a class="nav-logo" href="#">moja firma</a>
         <div class="nav-links">
-          <a href="#about">o nas</a>
-          <a href="#offers">oferta</a>
-          <a href="#">kontakt</a>
+          <a href="#about" class="nav-link">o nas</a>
+          <a href="#offers" class="nav-link">oferta</a>
+          <span href="#" class="nav-link nav-link-contact">kontakt</span>
         </div>
       </div>
     </nav>
     <main>
       <section class="landing-page">
         <div class="landing-page-shadow">
-          <div class="container">
-            <h1>Nasza firma oferuje najwyższej jakości produkty.</h1>
-            <h2>Nie wierz nam na słowo - sprawdź</h2>
-            <a href="#offers">oferta</a>
+          <div class="container landing-page-shadow-container">
+            <div class="landing-page-text">
+              <h1 class="about-heading-1">
+                Nasza firma oferuje najwyższej jakości produkty.
+              </h1>
+              <h2 class="heading">Nie wierz nam na słowo - sprawdź</h2>
+              <a class="landing-page-link" href="#offers">oferta</a>
+            </div>
           </div>
         </div>
       </section>
       <section class="about" id="about">
         <div class="container">
-          <h1>Nasi specjaliści</h1>
+          <h1 class="about-heading-2">Nasi specjaliści</h1>
           <div class="about-employee">
             <div class="about-employee-pic-woman"></div>
             <div class="about-employee-desc">
-              <h2>Imię Nazwisko [dział]</h2>
+              <h2 class="about-employee-name">Imię Nazwisko [dział]</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Numquam, accusamus. Fugiat atque totam est quas velit
-                accusantium omnis odio modi, inventore consequatur dolorum
-                magni? At delectus minima fugit fugiat voluptatum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                vel massa et lacus egestas cursus a non magna. Fusce scelerisque
+                blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
+                tempor elementum lorem in, varius pellentesque ligula. Duis
+                efficitur lacinia enim, non tincidunt libero ultrices in.
               </p>
             </div>
           </div>
           <div class="about-employee">
             <div class="about-employee-pic-man"></div>
             <div class="about-employee-desc">
-              <h2>Imię Nazwisko [dział]</h2>
+              <h2 class="about-employee-name">Imię Nazwisko [dział]</h2>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Numquam, accusamus. Fugiat atque totam est quas velit
-                accusantium omnis odio modi, inventore consequatur dolorum
-                magni? At delectus minima fugit fugiat voluptatum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                vel massa et lacus egestas cursus a non magna. Fusce scelerisque
+                blandit nunc, id malesuada ex lobortis a. Integer felis nisi,
+                tempor elementum lorem in, varius pellentesque ligula. Duis
+                efficitur lacinia enim, non tincidunt libero ultrices in.
               </p>
             </div>
           </div>
@@ -69,50 +75,54 @@
       </section>
       <section class="offers" id="offers">
         <div class="container">
-          <h1>Czym zajmuje się nasza firma?</h1>
+          <h1 class="offer-heading-1">Czym zajmuje się nasza firma?</h1>
           <div class="offers-wrapper">
             <div class="offers-wrapper-box">
               <div class="offers-wrapper-box-dot"></div>
               <div class="offers-wrapper-box-cnt">
-                <h2>Usługa 1</h2>
+                <h2 class="offer-heading-2">Usługa 1</h2>
                 <span>(nowość)</span>
               </div>
             </div>
             <div class="offers-wrapper-box">
               <div class="offers-wrapper-box-cnt">
-                <h2>Usługa 2</h2>
+                <h2 class="offer-heading-2">Usługa 2</h2>
               </div>
             </div>
             <div class="offers-wrapper-box">
               <div class="offers-wrapper-box-cnt">
-                <h2>Usługa 3</h2>
+                <h2 class="offer-heading-2">Usługa 3</h2>
               </div>
             </div>
             <div class="offers-wrapper-box">
               <div class="offers-wrapper-box-cnt">
-                <h2>Usługa 4</h2>
+                <h2 class="offer-heading-2">Usługa 4</h2>
               </div>
             </div>
             <div class="offers-wrapper-box">
               <div class="offers-wrapper-box-cnt">
-                <h2>Usługa 5</h2>
+                <h2 class="offer-heading-2">Usługa 5</h2>
               </div>
             </div>
-            <div class="offers-wrapper-box">
+            <div class="offers-wrapper-box last">
               <div class="offers-wrapper-box-cnt">
-                <h2>Usługa 6</h2>
+                <h2 class="offer-heading-2">Usługa 6</h2>
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container container-flex">
-        <span>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</span>
+    <footer class="footer-main">
+      <div class="container container-flex footer-container">
+        <span class="footer-credits"
+          >Nazwa firmy - wszelkie prawa zastrzeżone, 2019</span
+        >
         <div class="media">
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#" class="medium"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="medium"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
         </div>
       </div>
     </footer>
